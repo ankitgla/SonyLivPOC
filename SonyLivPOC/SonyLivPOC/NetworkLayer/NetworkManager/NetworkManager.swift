@@ -44,8 +44,8 @@ struct NetworkManager {
                         print(responseData)
                         let jsonData = try JSONSerialization.jsonObject(with: responseData, options: .mutableContainers)
                         print(jsonData)
-                        let apiResponse = try JSONDecoder().decode(BeerApiResponse.self, from: responseData)
-                        completion(apiResponse.beerList,nil)
+                        let beersList = try JSONDecoder().decode([Beer].self, from: responseData)
+                        completion(beersList,nil)
                     }catch {
                         print(error)
                         completion(nil, NetworkResponse.unableToDecode.rawValue)

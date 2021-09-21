@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         view.backgroundColor = .green
         networkManager.getBeerList(page: 2) { beers, error in
-            print(beers ?? "")
+            print(beers ?? error ?? "")
         }
     }
 
