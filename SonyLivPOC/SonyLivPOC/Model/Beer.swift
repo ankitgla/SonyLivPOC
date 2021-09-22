@@ -44,12 +44,12 @@ struct Beer : Decodable {
     var description:String
     var image_url:String
     var abv:Decimal
-    var ibu:Decimal
+    var ibu:Decimal?
     var target_fg:Int
     var target_og:Decimal
     var ebc:Int?
     var srm:Decimal?
-    var ph:Decimal
+    var ph:Decimal?
     var attenuation_level:Decimal
     var volume:Quantity
     var boil_volume:Quantity

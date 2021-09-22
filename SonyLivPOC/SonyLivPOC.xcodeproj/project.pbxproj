@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C68CDC6B26F9A04900D0482B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDC6A26F9A04900D0482B /* AppDelegate.swift */; };
-		C68CDC6D26F9A04900D0482B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDC6C26F9A04900D0482B /* SceneDelegate.swift */; };
-		C68CDC6F26F9A04900D0482B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDC6E26F9A04900D0482B /* ViewController.swift */; };
 		C68CDC7226F9A04900D0482B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68CDC7026F9A04900D0482B /* Main.storyboard */; };
 		C68CDC7426F9A04B00D0482B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68CDC7326F9A04B00D0482B /* Assets.xcassets */; };
 		C68CDC7726F9A04B00D0482B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68CDC7526F9A04B00D0482B /* LaunchScreen.storyboard */; };
@@ -26,6 +24,15 @@
 		C68CDCB126F9A78900D0482B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDCB026F9A78900D0482B /* Router.swift */; };
 		C68CDCB326F9A8C800D0482B /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDCB226F9A8C800D0482B /* Beer.swift */; };
 		C68CDCB626F9B0DA00D0482B /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDCB526F9B0DA00D0482B /* NetworkLogger.swift */; };
+		C68CDD0226FB3AED00D0482B /* BeerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDD0126FB3AED00D0482B /* BeerListVC.swift */; };
+		C68CDD0826FB3B9900D0482B /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDD0726FB3B9900D0482B /* BeerCell.swift */; };
+		C68CDD0B26FB3BE000D0482B /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDD0A26FB3BE000D0482B /* BaseCell.swift */; };
+		C68CDD0D26FB3FD000D0482B /* BeerListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDD0C26FB3FD000D0482B /* BeerListPresenter.swift */; };
+		C68CDD0F26FB498C00D0482B /* BeerListDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDD0E26FB498C00D0482B /* BeerListDependencyContainer.swift */; };
+		C68CDD1126FB49BE00D0482B /* BeerListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDD1026FB49BE00D0482B /* BeerListInteractor.swift */; };
+		C68CDD1326FB49D600D0482B /* BeerListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDD1226FB49D600D0482B /* BeerListRouter.swift */; };
+		C68CDD1526FB4D1E00D0482B /* BeerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDD1426FB4D1E00D0482B /* BeerClient.swift */; };
+		C68CDD1726FB542900D0482B /* ImageCacheLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68CDD1626FB542900D0482B /* ImageCacheLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +55,6 @@
 /* Begin PBXFileReference section */
 		C68CDC6726F9A04900D0482B /* SonyLivPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonyLivPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68CDC6A26F9A04900D0482B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C68CDC6C26F9A04900D0482B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C68CDC6E26F9A04900D0482B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C68CDC7126F9A04900D0482B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C68CDC7326F9A04B00D0482B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C68CDC7626F9A04B00D0482B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,6 +76,15 @@
 		C68CDCB026F9A78900D0482B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		C68CDCB226F9A8C800D0482B /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		C68CDCB526F9B0DA00D0482B /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		C68CDD0126FB3AED00D0482B /* BeerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListVC.swift; sourceTree = "<group>"; };
+		C68CDD0726FB3B9900D0482B /* BeerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
+		C68CDD0A26FB3BE000D0482B /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		C68CDD0C26FB3FD000D0482B /* BeerListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListPresenter.swift; sourceTree = "<group>"; };
+		C68CDD0E26FB498C00D0482B /* BeerListDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListDependencyContainer.swift; sourceTree = "<group>"; };
+		C68CDD1026FB49BE00D0482B /* BeerListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListInteractor.swift; sourceTree = "<group>"; };
+		C68CDD1226FB49D600D0482B /* BeerListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListRouter.swift; sourceTree = "<group>"; };
+		C68CDD1426FB4D1E00D0482B /* BeerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerClient.swift; sourceTree = "<group>"; };
+		C68CDD1626FB542900D0482B /* ImageCacheLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,12 +138,14 @@
 				C68CDCB426F9A8CF00D0482B /* Model */,
 				C68CDC9A26F9A23000D0482B /* NetworkLayer */,
 				C68CDC6A26F9A04900D0482B /* AppDelegate.swift */,
-				C68CDC6C26F9A04900D0482B /* SceneDelegate.swift */,
-				C68CDC6E26F9A04900D0482B /* ViewController.swift */,
+				C68CDD1426FB4D1E00D0482B /* BeerClient.swift */,
 				C68CDC7026F9A04900D0482B /* Main.storyboard */,
+				C68CDD0326FB3B3D00D0482B /* BeerList */,
+				C68CDD0926FB3BC300D0482B /* Convenience Classes */,
 				C68CDC7326F9A04B00D0482B /* Assets.xcassets */,
 				C68CDC7526F9A04B00D0482B /* LaunchScreen.storyboard */,
 				C68CDC7826F9A04B00D0482B /* Info.plist */,
+				C68CDD1626FB542900D0482B /* ImageCacheLoader.swift */,
 			);
 			path = SonyLivPOC;
 			sourceTree = "<group>";
@@ -207,6 +223,35 @@
 				C68CDCB226F9A8C800D0482B /* Beer.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C68CDD0326FB3B3D00D0482B /* BeerList */ = {
+			isa = PBXGroup;
+			children = (
+				C68CDD0426FB3B6400D0482B /* View */,
+				C68CDD0E26FB498C00D0482B /* BeerListDependencyContainer.swift */,
+				C68CDD1026FB49BE00D0482B /* BeerListInteractor.swift */,
+				C68CDD0C26FB3FD000D0482B /* BeerListPresenter.swift */,
+				C68CDD1226FB49D600D0482B /* BeerListRouter.swift */,
+				C68CDD0126FB3AED00D0482B /* BeerListVC.swift */,
+			);
+			path = BeerList;
+			sourceTree = "<group>";
+		};
+		C68CDD0426FB3B6400D0482B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C68CDD0726FB3B9900D0482B /* BeerCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C68CDD0926FB3BC300D0482B /* Convenience Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C68CDD0A26FB3BE000D0482B /* BaseCell.swift */,
+			);
+			path = "Convenience Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,20 +384,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68CDD0F26FB498C00D0482B /* BeerListDependencyContainer.swift in Sources */,
 				C68CDCB626F9B0DA00D0482B /* NetworkLogger.swift in Sources */,
 				C68CDCAB26F9A68300D0482B /* JSONParameterEncoder.swift in Sources */,
 				C68CDCA126F9A36500D0482B /* HTTPTask.swift in Sources */,
+				C68CDD0226FB3AED00D0482B /* BeerListVC.swift in Sources */,
 				C68CDC9D26F9A2E000D0482B /* URLObject.swift in Sources */,
 				C68CDCA726F9A63100D0482B /* ParameterEncoding.swift in Sources */,
 				C68CDCAF26F9A73500D0482B /* NetworkManager.swift in Sources */,
+				C68CDD0826FB3B9900D0482B /* BeerCell.swift in Sources */,
+				C68CDD1326FB49D600D0482B /* BeerListRouter.swift in Sources */,
 				C68CDCB326F9A8C800D0482B /* Beer.swift in Sources */,
 				C68CDCB126F9A78900D0482B /* Router.swift in Sources */,
-				C68CDC6F26F9A04900D0482B /* ViewController.swift in Sources */,
+				C68CDD1726FB542900D0482B /* ImageCacheLoader.swift in Sources */,
+				C68CDD1126FB49BE00D0482B /* BeerListInteractor.swift in Sources */,
+				C68CDD0B26FB3BE000D0482B /* BaseCell.swift in Sources */,
 				C68CDC6B26F9A04900D0482B /* AppDelegate.swift in Sources */,
+				C68CDD0D26FB3FD000D0482B /* BeerListPresenter.swift in Sources */,
 				C68CDCA526F9A4A000D0482B /* BeerAPI.swift in Sources */,
 				C68CDC9F26F9A31900D0482B /* HTTPMethod.swift in Sources */,
+				C68CDD1526FB4D1E00D0482B /* BeerClient.swift in Sources */,
 				C68CDCA926F9A67700D0482B /* URLParameterEncoding.swift in Sources */,
-				C68CDC6D26F9A04900D0482B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCDQT4J7RF;
 				INFOPLIST_FILE = SonyLivPOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,6 +603,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCDQT4J7RF;
 				INFOPLIST_FILE = SonyLivPOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
